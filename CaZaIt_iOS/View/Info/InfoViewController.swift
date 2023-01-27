@@ -285,13 +285,13 @@ class InfoViewController: UIViewController{
         brown.snp.makeConstraints { maker in
             maker.top.equalTo(view.snp.top)
             maker.width.equalToSuperview()
-            maker.height.equalTo(44)
+            maker.height.equalTo(47)
             
         }
         
         view.addSubview(imageView1)
         NSLayoutConstraint.activate([
-            imageView1.topAnchor.constraint(equalTo: view.topAnchor, constant: 44),
+            imageView1.topAnchor.constraint(equalTo: view.topAnchor, constant: 47),
             imageView1.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView1.widthAnchor.constraint(equalToConstant: 393),
             imageView1.heightAnchor.constraint(equalToConstant: 300),
@@ -299,7 +299,7 @@ class InfoViewController: UIViewController{
         
         view.addSubview(imageView2)
         NSLayoutConstraint.activate([
-            imageView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 44),
+            imageView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 47),
             imageView2.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView2.widthAnchor.constraint(equalToConstant: 393),
             imageView2.heightAnchor.constraint(equalToConstant: 300),
@@ -307,7 +307,7 @@ class InfoViewController: UIViewController{
         
         view.addSubview(imageView3)
         NSLayoutConstraint.activate([
-            imageView3.topAnchor.constraint(equalTo: view.topAnchor, constant: 44),
+            imageView3.topAnchor.constraint(equalTo: view.topAnchor, constant: 47),
             imageView3.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView3.widthAnchor.constraint(equalToConstant: 393),
             imageView3.heightAnchor.constraint(equalToConstant: 300),
