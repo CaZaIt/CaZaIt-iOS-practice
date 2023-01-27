@@ -14,7 +14,7 @@ class TabBarViewController: UITabBarController {
         super.viewDidLoad()
         
        // 인스턴스화
-        let vc1 = ViewController()
+        let vc1 = MainViewController()
         let vc2 = MyPageViewController()
         let vc3 = MoreViewController()
         
@@ -25,6 +25,7 @@ class TabBarViewController: UITabBarController {
         vc2.tabBarItem.image = UIImage(named: "person")
         vc3.title = ""
         vc3.tabBarItem.image = UIImage(named: "plus")
+        
         
         // 위에 타이틀 text를 항상 크게 보이게 설정
         vc1.navigationItem.largeTitleDisplayMode = .always
@@ -41,5 +42,6 @@ class TabBarViewController: UITabBarController {
         nav3.navigationBar.prefersLargeTitles = true
         
         setViewControllers([nav1, nav2, nav3], animated: false)
+        
     }
 }

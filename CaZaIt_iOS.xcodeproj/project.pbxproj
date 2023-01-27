@@ -14,11 +14,25 @@
 		0156268C2983CF4600D038D4 /* TapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156268B2983CF4600D038D4 /* TapBarViewController.swift */; };
 		0156268E2983CF4B00D038D4 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156268D2983CF4B00D038D4 /* MyPageViewController.swift */; };
 		015626902983CF5000D038D4 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156268F2983CF5000D038D4 /* MoreViewController.swift */; };
-		015626922983CF5400D038D4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626912983CF5400D038D4 /* CustomCell.swift */; };
+		015626982983D81B00D038D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626972983D81B00D038D4 /* MainViewController.swift */; };
+		0156269C2983D87C00D038D4 /* bottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156269B2983D87C00D038D4 /* bottomView.swift */; };
+		0156269E2983D8A500D038D4 /* collectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156269D2983D8A500D038D4 /* collectionviewCell.swift */; };
+		015626A02983D8C800D038D4 /* customcafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156269F2983D8C800D038D4 /* customcafeView.swift */; };
+		015626AB2983D9BC00D038D4 /* UITextField+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626AA2983D9BC00D038D4 /* UITextField+Extenstion.swift */; };
+		015626AD2983D9DB00D038D4 /* topView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626AC2983D9DB00D038D4 /* topView.swift */; };
+		015626B42983E5E800D038D4 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626B32983E5E800D038D4 /* BaseTableViewCell.swift */; };
+		015626B72983E61C00D038D4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626B62983E61C00D038D4 /* BaseView.swift */; };
+		015626B92983E63800D038D4 /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626B82983E63800D038D4 /* Cafe.swift */; };
+		015626BB2983E65000D038D4 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626BA2983E65000D038D4 /* InfoViewController.swift */; };
+		015626BD2983E66300D038D4 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626BC2983E66300D038D4 /* MyTableViewCell.swift */; };
+		015626BF2983E67600D038D4 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626BE2983E67600D038D4 /* RateView.swift */; };
+		015626C12983E68C00D038D4 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626C02983E68C00D038D4 /* Review.swift */; };
+		015626C32983E69D00D038D4 /* ReviewBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626C22983E69D00D038D4 /* ReviewBaseTableViewCell.swift */; };
+		015626C52983E6B300D038D4 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626C42983E6B300D038D4 /* ReviewTableViewCell.swift */; };
+		015626C72983E6F400D038D4 /* WriteReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626C62983E6F400D038D4 /* WriteReviewViewController.swift */; };
 		0A976B35029DA9F11F70CF8B /* Pods_CaZaIt_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */; };
 		7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8862983B6DF00427E74 /* AppDelegate.swift */; };
 		7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8882983B6DF00427E74 /* SceneDelegate.swift */; };
-		7A61C88B2983B6DF00427E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C88A2983B6DF00427E74 /* ViewController.swift */; };
 		7A61C8902983B6E000427E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C88F2983B6E000427E74 /* Assets.xcassets */; };
 		7A61C8932983B6E000427E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -31,13 +45,27 @@
 		0156268B2983CF4600D038D4 /* TapBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapBarViewController.swift; sourceTree = "<group>"; };
 		0156268D2983CF4B00D038D4 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		0156268F2983CF5000D038D4 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		015626912983CF5400D038D4 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		015626972983D81B00D038D4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0156269B2983D87C00D038D4 /* bottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomView.swift; sourceTree = "<group>"; };
+		0156269D2983D8A500D038D4 /* collectionviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionviewCell.swift; sourceTree = "<group>"; };
+		0156269F2983D8C800D038D4 /* customcafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customcafeView.swift; sourceTree = "<group>"; };
+		015626AA2983D9BC00D038D4 /* UITextField+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extenstion.swift"; sourceTree = "<group>"; };
+		015626AC2983D9DB00D038D4 /* topView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topView.swift; sourceTree = "<group>"; };
+		015626B32983E5E800D038D4 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		015626B62983E61C00D038D4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		015626B82983E63800D038D4 /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		015626BA2983E65000D038D4 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		015626BC2983E66300D038D4 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		015626BE2983E67600D038D4 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		015626C02983E68C00D038D4 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		015626C22983E69D00D038D4 /* ReviewBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewBaseTableViewCell.swift; sourceTree = "<group>"; };
+		015626C42983E6B300D038D4 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		015626C62983E6F400D038D4 /* WriteReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewViewController.swift; sourceTree = "<group>"; };
 		182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaZaIt_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		197D9EBB48678D619D0ACF46 /* Pods-CaZaIt_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaZaIt_iOS.debug.xcconfig"; path = "Target Support Files/Pods-CaZaIt_iOS/Pods-CaZaIt_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7A61C8832983B6DF00427E74 /* CaZaIt_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaZaIt_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A61C8862983B6DF00427E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A61C8882983B6DF00427E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A61C88A2983B6DF00427E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A61C88F2983B6E000427E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A61C8922983B6E000427E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A61C8942983B6E000427E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +84,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		015626AE2983E47400D038D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				015626AA2983D9BC00D038D4 /* UITextField+Extenstion.swift */,
+				015626852983CF2E00D038D4 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		015626AF2983E49C00D038D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				015626CC2983ED8300D038D4 /* Info */,
+				015626B22983E55D00D038D4 /* SignUp */,
+				015626B12983E54A00D038D4 /* Login */,
+				015626B02983E4C900D038D4 /* Main */,
+				0156268B2983CF4600D038D4 /* TapBarViewController.swift */,
+				0156268D2983CF4B00D038D4 /* MyPageViewController.swift */,
+				0156268F2983CF5000D038D4 /* MoreViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		015626B02983E4C900D038D4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				015626972983D81B00D038D4 /* MainViewController.swift */,
+				0156269B2983D87C00D038D4 /* bottomView.swift */,
+				0156269D2983D8A500D038D4 /* collectionviewCell.swift */,
+				0156269F2983D8C800D038D4 /* customcafeView.swift */,
+				015626AC2983D9DB00D038D4 /* topView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		015626B12983E54A00D038D4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				015626832983CF2700D038D4 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		015626B22983E55D00D038D4 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				015626892983CF3A00D038D4 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		015626C82983EC8200D038D4 /* Infomation */ = {
+			isa = PBXGroup;
+			children = (
+				015626B32983E5E800D038D4 /* BaseTableViewCell.swift */,
+				015626BC2983E66300D038D4 /* MyTableViewCell.swift */,
+				015626B82983E63800D038D4 /* Cafe.swift */,
+			);
+			path = Infomation;
+			sourceTree = "<group>";
+		};
+		015626C92983ECE600D038D4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		015626CA2983ECFD00D038D4 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				015626C02983E68C00D038D4 /* Review.swift */,
+				015626C22983E69D00D038D4 /* ReviewBaseTableViewCell.swift */,
+				015626C42983E6B300D038D4 /* ReviewTableViewCell.swift */,
+				015626CB2983ED1A00D038D4 /* WriteReview */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		015626CB2983ED1A00D038D4 /* WriteReview */ = {
+			isa = PBXGroup;
+			children = (
+				015626B62983E61C00D038D4 /* BaseView.swift */,
+				015626BE2983E67600D038D4 /* RateView.swift */,
+				015626C62983E6F400D038D4 /* WriteReviewViewController.swift */,
+			);
+			path = WriteReview;
+			sourceTree = "<group>";
+		};
+		015626CC2983ED8300D038D4 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				015626BA2983E65000D038D4 /* InfoViewController.swift */,
+				015626CA2983ECFD00D038D4 /* Review */,
+				015626C92983ECE600D038D4 /* Map */,
+				015626C82983EC8200D038D4 /* Infomation */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
 		03574F20EFF34FBE2C5E9020 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,17 +214,11 @@
 		7A61C8852983B6DF00427E74 /* CaZaIt_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				015626AF2983E49C00D038D4 /* View */,
+				015626AE2983E47400D038D4 /* Extension */,
 				7A61C8862983B6DF00427E74 /* AppDelegate.swift */,
 				7A61C8882983B6DF00427E74 /* SceneDelegate.swift */,
-				015626832983CF2700D038D4 /* LoginViewController.swift */,
-				015626852983CF2E00D038D4 /* UIColor+Extension.swift */,
 				015626872983CF3500D038D4 /* InsetTextField.swift */,
-				015626892983CF3A00D038D4 /* SignUpViewController.swift */,
-				0156268B2983CF4600D038D4 /* TapBarViewController.swift */,
-				0156268D2983CF4B00D038D4 /* MyPageViewController.swift */,
-				0156268F2983CF5000D038D4 /* MoreViewController.swift */,
-				015626912983CF5400D038D4 /* CustomCell.swift */,
-				7A61C88A2983B6DF00427E74 /* ViewController.swift */,
 				7A61C88F2983B6E000427E74 /* Assets.xcassets */,
 				7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */,
 				7A61C8942983B6E000427E74 /* Info.plist */,
@@ -226,17 +348,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015626C72983E6F400D038D4 /* WriteReviewViewController.swift in Sources */,
+				015626B42983E5E800D038D4 /* BaseTableViewCell.swift in Sources */,
+				015626C52983E6B300D038D4 /* ReviewTableViewCell.swift in Sources */,
 				015626842983CF2700D038D4 /* LoginViewController.swift in Sources */,
+				015626C32983E69D00D038D4 /* ReviewBaseTableViewCell.swift in Sources */,
 				0156268E2983CF4B00D038D4 /* MyPageViewController.swift in Sources */,
-				015626922983CF5400D038D4 /* CustomCell.swift in Sources */,
+				015626B72983E61C00D038D4 /* BaseView.swift in Sources */,
 				0156268A2983CF3A00D038D4 /* SignUpViewController.swift in Sources */,
-				7A61C88B2983B6DF00427E74 /* ViewController.swift in Sources */,
+				015626AB2983D9BC00D038D4 /* UITextField+Extenstion.swift in Sources */,
+				0156269C2983D87C00D038D4 /* bottomView.swift in Sources */,
+				015626A02983D8C800D038D4 /* customcafeView.swift in Sources */,
+				015626BF2983E67600D038D4 /* RateView.swift in Sources */,
+				015626B92983E63800D038D4 /* Cafe.swift in Sources */,
 				7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */,
 				015626902983CF5000D038D4 /* MoreViewController.swift in Sources */,
+				015626982983D81B00D038D4 /* MainViewController.swift in Sources */,
+				015626AD2983D9DB00D038D4 /* topView.swift in Sources */,
+				015626BD2983E66300D038D4 /* MyTableViewCell.swift in Sources */,
+				0156269E2983D8A500D038D4 /* collectionviewCell.swift in Sources */,
 				7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */,
+				015626C12983E68C00D038D4 /* Review.swift in Sources */,
 				015626862983CF2E00D038D4 /* UIColor+Extension.swift in Sources */,
 				0156268C2983CF4600D038D4 /* TapBarViewController.swift in Sources */,
 				015626882983CF3500D038D4 /* InsetTextField.swift in Sources */,
+				015626BB2983E65000D038D4 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
