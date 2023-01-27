@@ -8,9 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0A976B35029DA9F11F70CF8B /* Pods_CaZaIt_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */; };
+		6C4D37932983CCBE000BDEFD /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D37892983CCBD000BDEFD /* RateView.swift */; };
+		6C4D37942983CCBE000BDEFD /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D378A2983CCBD000BDEFD /* BaseView.swift */; };
+		6C4D37952983CCBE000BDEFD /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D378C2983CCBD000BDEFD /* BaseTableViewCell.swift */; };
+		6C4D37962983CCBE000BDEFD /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D378D2983CCBD000BDEFD /* Cafe.swift */; };
+		6C4D37972983CCBE000BDEFD /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D378E2983CCBD000BDEFD /* MyTableViewCell.swift */; };
+		6C4D37982983CCBE000BDEFD /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D37902983CCBD000BDEFD /* Review.swift */; };
+		6C4D37992983CCBE000BDEFD /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D37912983CCBD000BDEFD /* ReviewTableViewCell.swift */; };
+		6C4D379A2983CCBE000BDEFD /* ReviewBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D37922983CCBD000BDEFD /* ReviewBaseTableViewCell.swift */; };
+		6C4D379C2983CCE9000BDEFD /* WriteReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D379B2983CCE9000BDEFD /* WriteReviewViewController.swift */; };
+		6C4D379E2983CCF1000BDEFD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D379D2983CCF1000BDEFD /* InfoViewController.swift */; };
 		7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8862983B6DF00427E74 /* AppDelegate.swift */; };
 		7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8882983B6DF00427E74 /* SceneDelegate.swift */; };
-		7A61C88B2983B6DF00427E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C88A2983B6DF00427E74 /* ViewController.swift */; };
 		7A61C8902983B6E000427E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C88F2983B6E000427E74 /* Assets.xcassets */; };
 		7A61C8932983B6E000427E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,10 +27,19 @@
 /* Begin PBXFileReference section */
 		182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaZaIt_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		197D9EBB48678D619D0ACF46 /* Pods-CaZaIt_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaZaIt_iOS.debug.xcconfig"; path = "Target Support Files/Pods-CaZaIt_iOS/Pods-CaZaIt_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6C4D37892983CCBD000BDEFD /* RateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		6C4D378A2983CCBD000BDEFD /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6C4D378C2983CCBD000BDEFD /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		6C4D378D2983CCBD000BDEFD /* Cafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		6C4D378E2983CCBD000BDEFD /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		6C4D37902983CCBD000BDEFD /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		6C4D37912983CCBD000BDEFD /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		6C4D37922983CCBD000BDEFD /* ReviewBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewBaseTableViewCell.swift; sourceTree = "<group>"; };
+		6C4D379B2983CCE9000BDEFD /* WriteReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteReviewViewController.swift; sourceTree = "<group>"; };
+		6C4D379D2983CCF1000BDEFD /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		7A61C8832983B6DF00427E74 /* CaZaIt_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaZaIt_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A61C8862983B6DF00427E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A61C8882983B6DF00427E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A61C88A2983B6DF00427E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A61C88F2983B6E000427E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A61C8922983B6E000427E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A61C8942983B6E000427E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,8 +64,36 @@
 				197D9EBB48678D619D0ACF46 /* Pods-CaZaIt_iOS.debug.xcconfig */,
 				B428245C2032238792CB2EF4 /* Pods-CaZaIt_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C4D37882983CCBD000BDEFD /* Rate */ = {
+			isa = PBXGroup;
+			children = (
+				6C4D37892983CCBD000BDEFD /* RateView.swift */,
+				6C4D378A2983CCBD000BDEFD /* BaseView.swift */,
+			);
+			path = Rate;
+			sourceTree = "<group>";
+		};
+		6C4D378B2983CCBD000BDEFD /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				6C4D378C2983CCBD000BDEFD /* BaseTableViewCell.swift */,
+				6C4D378D2983CCBD000BDEFD /* Cafe.swift */,
+				6C4D378E2983CCBD000BDEFD /* MyTableViewCell.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		6C4D378F2983CCBD000BDEFD /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				6C4D37902983CCBD000BDEFD /* Review.swift */,
+				6C4D37912983CCBD000BDEFD /* ReviewTableViewCell.swift */,
+				6C4D37922983CCBD000BDEFD /* ReviewBaseTableViewCell.swift */,
+			);
+			path = Review;
 			sourceTree = "<group>";
 		};
 		7A61C87A2983B6DF00427E74 = {
@@ -71,9 +117,13 @@
 		7A61C8852983B6DF00427E74 /* CaZaIt_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6C4D378F2983CCBD000BDEFD /* Review */,
+				6C4D378B2983CCBD000BDEFD /* Information */,
+				6C4D37882983CCBD000BDEFD /* Rate */,
 				7A61C8862983B6DF00427E74 /* AppDelegate.swift */,
 				7A61C8882983B6DF00427E74 /* SceneDelegate.swift */,
-				7A61C88A2983B6DF00427E74 /* ViewController.swift */,
+				6C4D379D2983CCF1000BDEFD /* InfoViewController.swift */,
+				6C4D379B2983CCE9000BDEFD /* WriteReviewViewController.swift */,
 				7A61C88F2983B6E000427E74 /* Assets.xcassets */,
 				7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */,
 				7A61C8942983B6E000427E74 /* Info.plist */,
@@ -203,9 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A61C88B2983B6DF00427E74 /* ViewController.swift in Sources */,
+				6C4D37932983CCBE000BDEFD /* RateView.swift in Sources */,
+				6C4D37972983CCBE000BDEFD /* MyTableViewCell.swift in Sources */,
+				6C4D379C2983CCE9000BDEFD /* WriteReviewViewController.swift in Sources */,
+				6C4D379A2983CCBE000BDEFD /* ReviewBaseTableViewCell.swift in Sources */,
+				6C4D37982983CCBE000BDEFD /* Review.swift in Sources */,
+				6C4D37942983CCBE000BDEFD /* BaseView.swift in Sources */,
 				7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */,
+				6C4D37952983CCBE000BDEFD /* BaseTableViewCell.swift in Sources */,
+				6C4D37992983CCBE000BDEFD /* ReviewTableViewCell.swift in Sources */,
 				7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */,
+				6C4D379E2983CCF1000BDEFD /* InfoViewController.swift in Sources */,
+				6C4D37962983CCBE000BDEFD /* Cafe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
