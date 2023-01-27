@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015626842983CF2700D038D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626832983CF2700D038D4 /* LoginViewController.swift */; };
+		015626862983CF2E00D038D4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626852983CF2E00D038D4 /* UIColor+Extension.swift */; };
+		015626882983CF3500D038D4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626872983CF3500D038D4 /* InsetTextField.swift */; };
+		0156268A2983CF3A00D038D4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626892983CF3A00D038D4 /* SignUpViewController.swift */; };
+		0156268C2983CF4600D038D4 /* TapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156268B2983CF4600D038D4 /* TapBarViewController.swift */; };
+		0156268E2983CF4B00D038D4 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156268D2983CF4B00D038D4 /* MyPageViewController.swift */; };
+		015626902983CF5000D038D4 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156268F2983CF5000D038D4 /* MoreViewController.swift */; };
+		015626922983CF5400D038D4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015626912983CF5400D038D4 /* CustomCell.swift */; };
 		0A976B35029DA9F11F70CF8B /* Pods_CaZaIt_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */; };
 		7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8862983B6DF00427E74 /* AppDelegate.swift */; };
 		7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8882983B6DF00427E74 /* SceneDelegate.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		015626832983CF2700D038D4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		015626852983CF2E00D038D4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		015626872983CF3500D038D4 /* InsetTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		015626892983CF3A00D038D4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0156268B2983CF4600D038D4 /* TapBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapBarViewController.swift; sourceTree = "<group>"; };
+		0156268D2983CF4B00D038D4 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		0156268F2983CF5000D038D4 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		015626912983CF5400D038D4 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaZaIt_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		197D9EBB48678D619D0ACF46 /* Pods-CaZaIt_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaZaIt_iOS.debug.xcconfig"; path = "Target Support Files/Pods-CaZaIt_iOS/Pods-CaZaIt_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7A61C8832983B6DF00427E74 /* CaZaIt_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaZaIt_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +62,6 @@
 				197D9EBB48678D619D0ACF46 /* Pods-CaZaIt_iOS.debug.xcconfig */,
 				B428245C2032238792CB2EF4 /* Pods-CaZaIt_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +88,14 @@
 			children = (
 				7A61C8862983B6DF00427E74 /* AppDelegate.swift */,
 				7A61C8882983B6DF00427E74 /* SceneDelegate.swift */,
+				015626832983CF2700D038D4 /* LoginViewController.swift */,
+				015626852983CF2E00D038D4 /* UIColor+Extension.swift */,
+				015626872983CF3500D038D4 /* InsetTextField.swift */,
+				015626892983CF3A00D038D4 /* SignUpViewController.swift */,
+				0156268B2983CF4600D038D4 /* TapBarViewController.swift */,
+				0156268D2983CF4B00D038D4 /* MyPageViewController.swift */,
+				0156268F2983CF5000D038D4 /* MoreViewController.swift */,
+				015626912983CF5400D038D4 /* CustomCell.swift */,
 				7A61C88A2983B6DF00427E74 /* ViewController.swift */,
 				7A61C88F2983B6E000427E74 /* Assets.xcassets */,
 				7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */,
@@ -203,9 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015626842983CF2700D038D4 /* LoginViewController.swift in Sources */,
+				0156268E2983CF4B00D038D4 /* MyPageViewController.swift in Sources */,
+				015626922983CF5400D038D4 /* CustomCell.swift in Sources */,
+				0156268A2983CF3A00D038D4 /* SignUpViewController.swift in Sources */,
 				7A61C88B2983B6DF00427E74 /* ViewController.swift in Sources */,
 				7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */,
+				015626902983CF5000D038D4 /* MoreViewController.swift in Sources */,
 				7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */,
+				015626862983CF2E00D038D4 /* UIColor+Extension.swift in Sources */,
+				0156268C2983CF4600D038D4 /* TapBarViewController.swift in Sources */,
+				015626882983CF3500D038D4 /* InsetTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
