@@ -67,35 +67,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6C4D37882983CCBD000BDEFD /* Rate */ = {
-			isa = PBXGroup;
-			children = (
-				6C4D37892983CCBD000BDEFD /* RateView.swift */,
-				6C4D378A2983CCBD000BDEFD /* BaseView.swift */,
-			);
-			path = Rate;
-			sourceTree = "<group>";
-		};
-		6C4D378B2983CCBD000BDEFD /* Information */ = {
-			isa = PBXGroup;
-			children = (
-				6C4D378C2983CCBD000BDEFD /* BaseTableViewCell.swift */,
-				6C4D378D2983CCBD000BDEFD /* Cafe.swift */,
-				6C4D378E2983CCBD000BDEFD /* MyTableViewCell.swift */,
-			);
-			path = Information;
-			sourceTree = "<group>";
-		};
-		6C4D378F2983CCBD000BDEFD /* Review */ = {
-			isa = PBXGroup;
-			children = (
-				6C4D37902983CCBD000BDEFD /* Review.swift */,
-				6C4D37912983CCBD000BDEFD /* ReviewTableViewCell.swift */,
-				6C4D37922983CCBD000BDEFD /* ReviewBaseTableViewCell.swift */,
-			);
-			path = Review;
-			sourceTree = "<group>";
-		};
 		7A61C87A2983B6DF00427E74 = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +88,14 @@
 		7A61C8852983B6DF00427E74 /* CaZaIt_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6C4D378F2983CCBD000BDEFD /* Review */,
-				6C4D378B2983CCBD000BDEFD /* Information */,
-				6C4D37882983CCBD000BDEFD /* Rate */,
+				6C4D378C2983CCBD000BDEFD /* BaseTableViewCell.swift */,
+				6C4D378D2983CCBD000BDEFD /* Cafe.swift */,
+				6C4D378E2983CCBD000BDEFD /* MyTableViewCell.swift */,
+				6C4D37902983CCBD000BDEFD /* Review.swift */,
+				6C4D37912983CCBD000BDEFD /* ReviewTableViewCell.swift */,
+				6C4D37922983CCBD000BDEFD /* ReviewBaseTableViewCell.swift */,
+				6C4D37892983CCBD000BDEFD /* RateView.swift */,
+				6C4D378A2983CCBD000BDEFD /* BaseView.swift */,
 				7A61C8862983B6DF00427E74 /* AppDelegate.swift */,
 				7A61C8882983B6DF00427E74 /* SceneDelegate.swift */,
 				6C4D379D2983CCF1000BDEFD /* InfoViewController.swift */,
