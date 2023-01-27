@@ -8,9 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0A976B35029DA9F11F70CF8B /* Pods_CaZaIt_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */; };
+		7A3BBCD42983CE660049E988 /* topView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCD12983CE660049E988 /* topView.swift */; };
+		7A3BBCD52983CE660049E988 /* bottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCD22983CE660049E988 /* bottomView.swift */; };
+		7A3BBCD62983CE660049E988 /* customcafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCD32983CE660049E988 /* customcafeView.swift */; };
+		7A3BBCD82983CE6F0049E988 /* collectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCD72983CE6F0049E988 /* collectionviewCell.swift */; };
+		7A3BBCDC2983CE770049E988 /* setPlaceHolderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCD92983CE770049E988 /* setPlaceHolderColor.swift */; };
+		7A3BBCDD2983CE770049E988 /* insetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCDA2983CE770049E988 /* insetTextField.swift */; };
+		7A3BBCDE2983CE770049E988 /* addLeftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCDB2983CE770049E988 /* addLeftImage.swift */; };
+		7A3BBCE12983CE7F0049E988 /* addDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCDF2983CE7F0049E988 /* addDash.swift */; };
+		7A3BBCE22983CE7F0049E988 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCE02983CE7F0049E988 /* UIColor.swift */; };
+		7A3BBCE42983CE9E0049E988 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCE32983CE9E0049E988 /* MainViewController.swift */; };
+		7A3BBCE82983CF770049E988 /* LastestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCE72983CF770049E988 /* LastestViewController.swift */; };
+		7A3BBCEA2983CF980049E988 /* favoritesCollectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCE92983CF980049E988 /* favoritesCollectionviewCell.swift */; };
+		7A3BBCEE2983CFA00049E988 /* favoritesBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCEB2983CFA00049E988 /* favoritesBottomView.swift */; };
+		7A3BBCEF2983CFA00049E988 /* favoritesCustomCafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCEC2983CFA00049E988 /* favoritesCustomCafeView.swift */; };
+		7A3BBCF02983CFA00049E988 /* favoritesTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCED2983CFA00049E988 /* favoritesTopView.swift */; };
+		7A3BBCF22983CFB30049E988 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BBCF12983CFB30049E988 /* FavoritesViewController.swift */; };
 		7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8862983B6DF00427E74 /* AppDelegate.swift */; };
 		7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8882983B6DF00427E74 /* SceneDelegate.swift */; };
-		7A61C88B2983B6DF00427E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C88A2983B6DF00427E74 /* ViewController.swift */; };
 		7A61C8902983B6E000427E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C88F2983B6E000427E74 /* Assets.xcassets */; };
 		7A61C8932983B6E000427E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,10 +33,25 @@
 /* Begin PBXFileReference section */
 		182DFCFAE6CBE4803434AB33 /* Pods_CaZaIt_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaZaIt_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		197D9EBB48678D619D0ACF46 /* Pods-CaZaIt_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaZaIt_iOS.debug.xcconfig"; path = "Target Support Files/Pods-CaZaIt_iOS/Pods-CaZaIt_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3BBCD12983CE660049E988 /* topView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = topView.swift; sourceTree = "<group>"; };
+		7A3BBCD22983CE660049E988 /* bottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bottomView.swift; sourceTree = "<group>"; };
+		7A3BBCD32983CE660049E988 /* customcafeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customcafeView.swift; sourceTree = "<group>"; };
+		7A3BBCD72983CE6F0049E988 /* collectionviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionviewCell.swift; sourceTree = "<group>"; };
+		7A3BBCD92983CE770049E988 /* setPlaceHolderColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setPlaceHolderColor.swift; sourceTree = "<group>"; };
+		7A3BBCDA2983CE770049E988 /* insetTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insetTextField.swift; sourceTree = "<group>"; };
+		7A3BBCDB2983CE770049E988 /* addLeftImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addLeftImage.swift; sourceTree = "<group>"; };
+		7A3BBCDF2983CE7F0049E988 /* addDash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addDash.swift; sourceTree = "<group>"; };
+		7A3BBCE02983CE7F0049E988 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7A3BBCE32983CE9E0049E988 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7A3BBCE72983CF770049E988 /* LastestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastestViewController.swift; sourceTree = "<group>"; };
+		7A3BBCE92983CF980049E988 /* favoritesCollectionviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesCollectionviewCell.swift; sourceTree = "<group>"; };
+		7A3BBCEB2983CFA00049E988 /* favoritesBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesBottomView.swift; sourceTree = "<group>"; };
+		7A3BBCEC2983CFA00049E988 /* favoritesCustomCafeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesCustomCafeView.swift; sourceTree = "<group>"; };
+		7A3BBCED2983CFA00049E988 /* favoritesTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesTopView.swift; sourceTree = "<group>"; };
+		7A3BBCF12983CFB30049E988 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		7A61C8832983B6DF00427E74 /* CaZaIt_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaZaIt_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A61C8862983B6DF00427E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A61C8882983B6DF00427E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A61C88A2983B6DF00427E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A61C88F2983B6E000427E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A61C8922983B6E000427E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A61C8942983B6E000427E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +76,6 @@
 				197D9EBB48678D619D0ACF46 /* Pods-CaZaIt_iOS.debug.xcconfig */,
 				B428245C2032238792CB2EF4 /* Pods-CaZaIt_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,7 +102,22 @@
 			children = (
 				7A61C8862983B6DF00427E74 /* AppDelegate.swift */,
 				7A61C8882983B6DF00427E74 /* SceneDelegate.swift */,
-				7A61C88A2983B6DF00427E74 /* ViewController.swift */,
+				7A3BBCD22983CE660049E988 /* bottomView.swift */,
+				7A3BBCD32983CE660049E988 /* customcafeView.swift */,
+				7A3BBCD12983CE660049E988 /* topView.swift */,
+				7A3BBCD72983CE6F0049E988 /* collectionviewCell.swift */,
+				7A3BBCDB2983CE770049E988 /* addLeftImage.swift */,
+				7A3BBCDA2983CE770049E988 /* insetTextField.swift */,
+				7A3BBCE32983CE9E0049E988 /* MainViewController.swift */,
+				7A3BBCD92983CE770049E988 /* setPlaceHolderColor.swift */,
+				7A3BBCDF2983CE7F0049E988 /* addDash.swift */,
+				7A3BBCE02983CE7F0049E988 /* UIColor.swift */,
+				7A3BBCE72983CF770049E988 /* LastestViewController.swift */,
+				7A3BBCE92983CF980049E988 /* favoritesCollectionviewCell.swift */,
+				7A3BBCEB2983CFA00049E988 /* favoritesBottomView.swift */,
+				7A3BBCEC2983CFA00049E988 /* favoritesCustomCafeView.swift */,
+				7A3BBCED2983CFA00049E988 /* favoritesTopView.swift */,
+				7A3BBCF12983CFB30049E988 /* FavoritesViewController.swift */,
 				7A61C88F2983B6E000427E74 /* Assets.xcassets */,
 				7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */,
 				7A61C8942983B6E000427E74 /* Info.plist */,
@@ -203,9 +247,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A61C88B2983B6DF00427E74 /* ViewController.swift in Sources */,
+				7A3BBCE12983CE7F0049E988 /* addDash.swift in Sources */,
+				7A3BBCE42983CE9E0049E988 /* MainViewController.swift in Sources */,
+				7A3BBCE22983CE7F0049E988 /* UIColor.swift in Sources */,
+				7A3BBCD62983CE660049E988 /* customcafeView.swift in Sources */,
+				7A3BBCDC2983CE770049E988 /* setPlaceHolderColor.swift in Sources */,
 				7A61C8872983B6DF00427E74 /* AppDelegate.swift in Sources */,
+				7A3BBCF02983CFA00049E988 /* favoritesTopView.swift in Sources */,
+				7A3BBCD82983CE6F0049E988 /* collectionviewCell.swift in Sources */,
+				7A3BBCEE2983CFA00049E988 /* favoritesBottomView.swift in Sources */,
+				7A3BBCD42983CE660049E988 /* topView.swift in Sources */,
+				7A3BBCF22983CFB30049E988 /* FavoritesViewController.swift in Sources */,
 				7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */,
+				7A3BBCE82983CF770049E988 /* LastestViewController.swift in Sources */,
+				7A3BBCEF2983CFA00049E988 /* favoritesCustomCafeView.swift in Sources */,
+				7A3BBCD52983CE660049E988 /* bottomView.swift in Sources */,
+				7A3BBCDE2983CE770049E988 /* addLeftImage.swift in Sources */,
+				7A3BBCDD2983CE770049E988 /* insetTextField.swift in Sources */,
+				7A3BBCEA2983CF980049E988 /* favoritesCollectionviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
