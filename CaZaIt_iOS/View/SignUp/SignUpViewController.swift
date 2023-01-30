@@ -33,10 +33,12 @@ final class SignUpViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "예: kazait123"
         textField.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
         return textField
     }()
     
@@ -48,8 +50,8 @@ final class SignUpViewController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("중복확인", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .bold)
-        button.setTitleColor(UIColor.white, for: .normal)
-        button.backgroundColor = UIColor(red: 0.554, green: 0.376, blue: 0.376, alpha: 1)
+        button.setTitleColor(UIColor(r: 93, g: 36, b: 36), for: .normal)
+        button.backgroundColor = UIColor(r: 229, g: 211, b: 203)
         button.layer.cornerRadius = 10
         button.clipsToBounds = true
         return button
@@ -87,10 +89,12 @@ final class SignUpViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "비밀번호를 입력해주세요"
         textField.font = UIFont.systemFont(ofSize: 16, weight: .regular)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
         return textField
     }()
     
@@ -113,10 +117,12 @@ final class SignUpViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "비밀번호를 한 번 더 입력해주세요"
         textField.font = UIFont.systemFont(ofSize: 14, weight: .regular)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
         return textField
     }()
     
@@ -139,10 +145,12 @@ final class SignUpViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "예: kazait123@naver.com"
         textField.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
         return textField
     }()
     
@@ -152,8 +160,8 @@ final class SignUpViewController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("중복확인", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .bold)
-        button.setTitleColor(UIColor.white, for: .normal)
-        button.backgroundColor = UIColor(red: 0.554, green: 0.376, blue: 0.376, alpha: 1)
+        button.setTitleColor(UIColor(r: 93, g: 36, b: 36), for: .normal)
+        button.backgroundColor = UIColor(r: 229, g: 211, b: 203)
         button.layer.cornerRadius = 10
         button.clipsToBounds = true
         return button
@@ -166,7 +174,7 @@ final class SignUpViewController: UIViewController {
         button.setTitle("가입하기", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .bold)
         button.setTitleColor(UIColor.white, for: .normal)
-        button.backgroundColor = UIColor(red: 0.554, green: 0.376, blue: 0.376, alpha: 1)
+        button.backgroundColor = UIColor(r: 94, g: 36, b: 36)
         button.layer.cornerRadius = 10
         button.clipsToBounds = true
         return button
@@ -182,14 +190,14 @@ final class SignUpViewController: UIViewController {
         self.title = "회원가입"
         // 네비게이션 바 배경색상
         let navigationBarAppearance = UINavigationBarAppearance()
-        navigationBarAppearance.backgroundColor = UIColor(r: 141, g: 96, b: 96)
+        navigationBarAppearance.backgroundColor = UIColor(r: 93, g: 36, b: 36)
         navigationBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationController?.navigationBar.standardAppearance = navigationBarAppearance
         navigationController!.navigationBar.scrollEdgeAppearance = navigationBarAppearance
         
         // 뒤로가기 아이콘 색상
         self.navigationController?.navigationBar.tintColor = .white
-        self.view.backgroundColor = UIColor(r: 250, g: 240, b: 221)
+        self.view.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         self.navigationController?.navigationBar.isHidden = true
         
         //뷰안에 각 오브젝트 넣기

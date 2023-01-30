@@ -14,7 +14,7 @@ final class LoginViewController: UIViewController {
     private let titleImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(named: "cazait_logo")
+        imageView.image = UIImage(named: "cazait_logo2")
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
@@ -25,10 +25,12 @@ final class LoginViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Username"
         textField.font = UIFont.systemFont(ofSize: 14, weight: .regular)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
         return textField
     }()
     
@@ -38,10 +40,12 @@ final class LoginViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Password"
         textField.font = UIFont.systemFont(ofSize: 14, weight: .regular)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
         return textField
     }()
     
@@ -79,7 +83,7 @@ final class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(r: 250, g: 240, b: 221)
+        self.view.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         self.view.addSubview(self.contrainer)
         
         
@@ -104,11 +108,11 @@ final class LoginViewController: UIViewController {
             
             self.idtextField.leadingAnchor.constraint(equalTo: self.contrainer.leadingAnchor),
             self.idtextField.leadingAnchor.constraint(equalTo: self.contrainer.trailingAnchor),
-            self.idtextField.heightAnchor.constraint(equalToConstant: 40),
+            self.idtextField.heightAnchor.constraint(equalToConstant: 50),
             
             self.passwordtextField.leadingAnchor.constraint(equalTo: self.contrainer.leadingAnchor),
             self.passwordtextField.leadingAnchor.constraint(equalTo: self.contrainer.trailingAnchor),
-            self.passwordtextField.heightAnchor.constraint(equalToConstant: 40),
+            self.passwordtextField.heightAnchor.constraint(equalToConstant: 50),
             
             self.loginButton.leadingAnchor.constraint(equalTo: self.contrainer.leadingAnchor),
             self.loginButton.leadingAnchor.constraint(equalTo: self.contrainer.trailingAnchor),

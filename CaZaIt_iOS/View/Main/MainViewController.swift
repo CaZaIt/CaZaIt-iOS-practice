@@ -49,6 +49,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
         
         self.view.backgroundColor = UIColor(r: 93, g: 36, b: 36)
         
