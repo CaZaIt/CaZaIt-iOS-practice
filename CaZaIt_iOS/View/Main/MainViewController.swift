@@ -51,6 +51,8 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor(r: 93, g: 36, b: 36)
+        self.navigationController?.navigationBar.isHidden = true
+
         
         setupView()
         
@@ -89,6 +91,8 @@ class MainViewController: UIViewController {
         let vc = InfoViewController()
         self.navigationController?.pushViewController(vc, animated : true)
         self.navigationItem.title = " "
+        self.navigationController?.navigationBar.tintColor = .white
+
     }
     
 }
