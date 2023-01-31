@@ -1,4 +1,5 @@
 PODS:
+
   - NMapsGeometry (1.0.1)
   - NMapsMap (3.16.1):
     - NMapsGeometry
@@ -6,10 +7,18 @@ PODS:
 
 DEPENDENCIES:
   - NMapsMap (~> 3.16.1)
+
+  - Alamofire (5.6.4)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6.4)
+
   - SnapKit
 
 SPEC REPOS:
   trunk:
+
     - NMapsGeometry
     - NMapsMap
     - SnapKit
@@ -20,5 +29,15 @@ SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: 6ceecd7a8614b57f6fc04a0e560f2c989aafd3ac
+
+    - Alamofire
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 830328b17c167a11ecaca38a1cb973676501cd22
+
 
 COCOAPODS: 1.11.3

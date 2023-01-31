@@ -14,7 +14,7 @@ final class LoginViewController: UIViewController {
     private let titleImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(named: "cazait_logo")
+        imageView.image = UIImage(named: "cazait_logo2")
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
@@ -25,10 +25,13 @@ final class LoginViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Username"
         textField.font = UIFont.systemFont(ofSize: 14, weight: .regular)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
+        textField.setPlaceholder(color: UIColor(r: 93, g: 36, b: 36))
         return textField
     }()
     
@@ -38,10 +41,13 @@ final class LoginViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Password"
         textField.font = UIFont.systemFont(ofSize: 14, weight: .regular)
-        textField.backgroundColor = .white
+        textField.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 15
         textField.clipsToBounds = true
+        textField.layer.borderColor = UIColor(r: 125, g: 91, b: 81).cgColor
+        textField.layer.borderWidth = 1
+        textField.setPlaceholder(color: UIColor(r: 93, g: 36, b: 36))
         return textField
     }()
     
@@ -79,7 +85,7 @@ final class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(r: 250, g: 240, b: 221)
+        self.view.backgroundColor = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
         self.view.addSubview(self.contrainer)
         
         
@@ -104,11 +110,11 @@ final class LoginViewController: UIViewController {
             
             self.idtextField.leadingAnchor.constraint(equalTo: self.contrainer.leadingAnchor),
             self.idtextField.leadingAnchor.constraint(equalTo: self.contrainer.trailingAnchor),
-            self.idtextField.heightAnchor.constraint(equalToConstant: 40),
+            self.idtextField.heightAnchor.constraint(equalToConstant: 50),
             
             self.passwordtextField.leadingAnchor.constraint(equalTo: self.contrainer.leadingAnchor),
             self.passwordtextField.leadingAnchor.constraint(equalTo: self.contrainer.trailingAnchor),
-            self.passwordtextField.heightAnchor.constraint(equalToConstant: 40),
+            self.passwordtextField.heightAnchor.constraint(equalToConstant: 50),
             
             self.loginButton.leadingAnchor.constraint(equalTo: self.contrainer.leadingAnchor),
             self.loginButton.leadingAnchor.constraint(equalTo: self.contrainer.trailingAnchor),
@@ -133,6 +139,9 @@ final class LoginViewController: UIViewController {
         nav.navigationBar.barTintColor = .white
         nav.navigationBar.tintColor = UIColor(w: 42)
         
+       //MARK: - 네비게이션 중복 수정 1/31
+        nav.navigationBar.isHidden = true
+        
         let controller = TabBarViewController()
         nav.viewControllers = [controller]
         self.present(nav, animated: true, completion: nil)
@@ -143,8 +152,12 @@ final class LoginViewController: UIViewController {
         nav.modalPresentationStyle = .fullScreen
         nav.navigationBar.barTintColor = .white
         nav.navigationBar.tintColor = UIColor(w: 42)
+        
         let controller = SignUpViewController()
         self.navigationController?.pushViewController(controller, animated: true)
+        
+    
+        
     }
     
     
@@ -160,4 +173,8 @@ final class LoginViewController: UIViewController {
             navigationController?.setNavigationBarHidden(false, animated: animated)
 
         }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+                self.view.endEditing(true)
+            }
 }

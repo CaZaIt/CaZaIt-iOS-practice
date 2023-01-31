@@ -92,6 +92,7 @@ class InfoViewController: UIViewController{
         cafeName.text = "카페이름"
         cafeName.translatesAutoresizingMaskIntoConstraints = false
         cafeName.font = .boldSystemFont(ofSize: 26)
+        cafeName.textColor = .black
         return cafeName
     }()
 
@@ -101,6 +102,7 @@ class InfoViewController: UIViewController{
         cafeLocation.text = "카페 위치"
         cafeLocation.translatesAutoresizingMaskIntoConstraints = false
         cafeLocation.font = .italicSystemFont(ofSize: 13)
+        cafeLocation.textColor = .black
         return cafeLocation
     }()
 
@@ -300,6 +302,8 @@ class InfoViewController: UIViewController{
             maker.top.equalTo(view.snp.top)
             maker.width.equalToSuperview()
             maker.height.equalTo(54)
+            
+            self.navigationController?.navigationBar.isHidden = false
             
         }
         

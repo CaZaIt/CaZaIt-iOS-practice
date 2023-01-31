@@ -7,7 +7,11 @@ target 'CaZaIt_iOS' do
 
 
 pod 'SnapKit'
+
 pod 'NMapsMap', '~>3.16.1'
+
+pod 'Alamofire', '~> 5.6.4'
+
 
   # Pods for CaZaIt_iOS
 
