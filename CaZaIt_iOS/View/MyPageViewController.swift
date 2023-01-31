@@ -17,6 +17,8 @@ import UIKit
 
 final class MyPageViewController: UIViewController {
     
+    let table = UITableView()
+    let testArr = ["결제 내역", "최근 본 매장","쿠폰"]
     
     private let Label_1: UILabel = {
         let label = UILabel()
@@ -99,7 +101,7 @@ final class MyPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(r: 250, g: 240, b: 221)
-        
+        self.navigationController?.navigationBar.isHidden = true
         self.view.addSubview(self.Label_1)
         self.view.addSubview(self.Button_1)
         
@@ -111,8 +113,11 @@ final class MyPageViewController: UIViewController {
         
         self.payView.setCustomSpacing(10, after: Label_2)
         
-//        attribute()
-//        setTable()
+        table.delegate = self
+        table.dataSource = self
+        
+        attribute()
+        layout()
         
         
         NSLayoutConstraint.activate([
@@ -143,35 +148,33 @@ final class MyPageViewController: UIViewController {
         
         
     }
-//    func attribute() {
-//            tableView.register(CustomCell.self, forCellReuseIdentifier: CustomCell.cellId)
-//            tableView.delegate = self
-//            tableView.dataSource = self
-//        }
-//    func setTable(){
-//            view.addSubview(tableView)
-//            tableView.translatesAutoresizingMaskIntoConstraints = false
-//            tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,constant: 300).isActive = true
-//            tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-//            tableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
-//            tableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
-//        }
-//    }
+    func layout() {
+        view.addSubview(table)
+        table.backgroundColor = UIColor(r: 250, g: 240, b: 221)
+        table.translatesAutoresizingMaskIntoConstraints = false
+        table.topAnchor.constraint(equalTo: view.topAnchor, constant: 400).isActive = true
+        table.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        table.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+        table.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+    }
+    func attribute() {
+        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+    }
+}
 
-
-
-//extension MyPageViewController:  UITableViewDataSource, UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return user.count
-//    }
-//    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: CustomCell.cellId, for: indexPath) as! CustomCell
-//        
-//        cell.profile.image = user[indexPath.row].profile
-//        cell.name.text = user[indexPath.row].name
-//        
-//        return cell
-//    }
-//}
+extension MyPageViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return testArr.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = table.dequeueReusableCell(withIdentifier: "cell",for: indexPath) as UITableViewCell
+        
+        cell.textLabel?.text = testArr[indexPath.row]
+        cell.backgroundColor = UIColor(r: 250, g: 240, b: 221)
+        
+        return cell
+    }
+    
+    
 }
