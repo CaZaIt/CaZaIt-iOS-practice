@@ -171,6 +171,7 @@ final class LoginViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
             super.viewWillDisappear(animated)
             navigationController?.setNavigationBarHidden(false, animated: animated)
+
         }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

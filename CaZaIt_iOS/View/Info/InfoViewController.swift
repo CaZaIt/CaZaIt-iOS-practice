@@ -194,6 +194,8 @@ class InfoViewController: UIViewController{
             return ImageView
         
     }()
+    //let mapView = NMFMapView(frame: view.frame)
+
 
     //review
     let review: UIView = {
@@ -283,11 +285,23 @@ class InfoViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //let mapView = NMFMapView(frame: view.frame)
+        //view.addSubview(mapView)
+        
+        self.navigationController?.navigationBar.isHidden = false
+        
+        let backbutton = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = backbutton
+        self.navigationItem.backBarButtonItem?.tintColor = .black
+        //backbutton.width
+        
+
+        
         view.addSubview(brown)
         brown.snp.makeConstraints { maker in
             maker.top.equalTo(view.snp.top)
             maker.width.equalToSuperview()
-            maker.height.equalTo(47)
+            maker.height.equalTo(54)
             
             self.navigationController?.navigationBar.isHidden = false
             
@@ -295,7 +309,7 @@ class InfoViewController: UIViewController{
         
         view.addSubview(imageView1)
         NSLayoutConstraint.activate([
-            imageView1.topAnchor.constraint(equalTo: view.topAnchor, constant: 47),
+            imageView1.topAnchor.constraint(equalTo: view.topAnchor, constant: 54),
             imageView1.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView1.widthAnchor.constraint(equalToConstant: 393),
             imageView1.heightAnchor.constraint(equalToConstant: 300),
@@ -303,7 +317,7 @@ class InfoViewController: UIViewController{
         
         view.addSubview(imageView2)
         NSLayoutConstraint.activate([
-            imageView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 47),
+            imageView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 54),
             imageView2.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView2.widthAnchor.constraint(equalToConstant: 393),
             imageView2.heightAnchor.constraint(equalToConstant: 300),
@@ -311,7 +325,7 @@ class InfoViewController: UIViewController{
         
         view.addSubview(imageView3)
         NSLayoutConstraint.activate([
-            imageView3.topAnchor.constraint(equalTo: view.topAnchor, constant: 47),
+            imageView3.topAnchor.constraint(equalTo: view.topAnchor, constant: 54),
             imageView3.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView3.widthAnchor.constraint(equalToConstant: 393),
             imageView3.heightAnchor.constraint(equalToConstant: 300),
@@ -387,6 +401,7 @@ class InfoViewController: UIViewController{
             locationImageView.heightAnchor.constraint(equalToConstant: 282)
         ])
         
+        //view.addSubview(mapView)
         //review
         view.addSubview(review)
         review.snp.makeConstraints { maker in
@@ -463,7 +478,7 @@ class InfoViewController: UIViewController{
         
         
         imageBackgroundView.snp.makeConstraints { maker in
-            maker.top.equalTo(view.snp.top).offset(44)
+            maker.top.equalTo(view.snp.top).offset(54)
             maker.width.equalToSuperview()
             maker.height.equalTo(300)
             
@@ -530,6 +545,7 @@ class InfoViewController: UIViewController{
         
         case 1:
             view.addSubview(locationImageView)
+            //view.addSubview(mapView)
             containerView.isHidden = true
             locationImageView.isHidden = false
             review.isHidden = true
@@ -554,7 +570,11 @@ class InfoViewController: UIViewController{
     @objc func buttonClicked() {
         let nextVC = WriteReviewViewController()
         navigationController?.pushViewController(nextVC, animated: true)
+        //self.navigationItem.title = "리뷰쓰기"
+        //self.navigationController?.navigationBar.tintColor = .white
+        
     }
+
     
 }
 

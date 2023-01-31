@@ -52,6 +52,8 @@ class MainViewController: UIViewController {
        
         
         self.view.backgroundColor = UIColor(r: 93, g: 36, b: 36)
+        self.navigationController?.navigationBar.isHidden = true
+
         
         setupView()
         
@@ -101,6 +103,7 @@ class MainViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated : true)
         self.navigationItem.title = " "
         self.navigationController?.navigationBar.tintColor = .white
+
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
