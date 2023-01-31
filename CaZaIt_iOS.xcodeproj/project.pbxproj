@@ -35,6 +35,11 @@
 		7A61C8892983B6DF00427E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C8882983B6DF00427E74 /* SceneDelegate.swift */; };
 		7A61C8902983B6E000427E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C88F2983B6E000427E74 /* Assets.xcassets */; };
 		7A61C8932983B6E000427E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C8912983B6E000427E74 /* LaunchScreen.storyboard */; };
+		7AF43498298921E60057EE52 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF43497298921E60057EE52 /* FavoritesViewController.swift */; };
+		7AF4349A298921FD0057EE52 /* favoritesCollectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF43499298921FD0057EE52 /* favoritesCollectionviewCell.swift */; };
+		7AF4349C298922110057EE52 /* favoritesTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4349B298922110057EE52 /* favoritesTopView.swift */; };
+		7AF4349E2989222C0057EE52 /* favoritesBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4349D2989222C0057EE52 /* favoritesBottomView.swift */; };
+		7AF434A02989223C0057EE52 /* favoritesCustomCafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4349F2989223C0057EE52 /* favoritesCustomCafeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +74,11 @@
 		7A61C88F2983B6E000427E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A61C8922983B6E000427E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A61C8942983B6E000427E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF43497298921E60057EE52 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesViewController.swift; path = ../../../../Documents/FavoritesViewController.swift; sourceTree = "<group>"; };
+		7AF43499298921FD0057EE52 /* favoritesCollectionviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = favoritesCollectionviewCell.swift; path = ../../../../Documents/favoritesCollectionviewCell.swift; sourceTree = "<group>"; };
+		7AF4349B298922110057EE52 /* favoritesTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = favoritesTopView.swift; path = ../../../../Documents/favoritesTopView.swift; sourceTree = "<group>"; };
+		7AF4349D2989222C0057EE52 /* favoritesBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = favoritesBottomView.swift; path = ../../../../Documents/favoritesBottomView.swift; sourceTree = "<group>"; };
+		7AF4349F2989223C0057EE52 /* favoritesCustomCafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = favoritesCustomCafeView.swift; path = ../../../../Documents/favoritesCustomCafeView.swift; sourceTree = "<group>"; };
 		B428245C2032238792CB2EF4 /* Pods-CaZaIt_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaZaIt_iOS.release.xcconfig"; path = "Target Support Files/Pods-CaZaIt_iOS/Pods-CaZaIt_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +113,11 @@
 				0156268B2983CF4600D038D4 /* TapBarViewController.swift */,
 				0156268D2983CF4B00D038D4 /* MyPageViewController.swift */,
 				0156268F2983CF5000D038D4 /* MoreViewController.swift */,
+				7AF43497298921E60057EE52 /* FavoritesViewController.swift */,
+				7AF43499298921FD0057EE52 /* favoritesCollectionviewCell.swift */,
+				7AF4349B298922110057EE52 /* favoritesTopView.swift */,
+				7AF4349D2989222C0057EE52 /* favoritesBottomView.swift */,
+				7AF4349F2989223C0057EE52 /* favoritesCustomCafeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,10 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				015626972983D81B00D038D4 /* MainViewController.swift */,
+				015626AC2983D9DB00D038D4 /* topView.swift */,
 				0156269B2983D87C00D038D4 /* bottomView.swift */,
 				0156269D2983D8A500D038D4 /* collectionviewCell.swift */,
 				0156269F2983D8C800D038D4 /* customcafeView.swift */,
-				015626AC2983D9DB00D038D4 /* topView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -348,7 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF43498298921E60057EE52 /* FavoritesViewController.swift in Sources */,
 				015626C72983E6F400D038D4 /* WriteReviewViewController.swift in Sources */,
+				7AF434A02989223C0057EE52 /* favoritesCustomCafeView.swift in Sources */,
+				7AF4349E2989222C0057EE52 /* favoritesBottomView.swift in Sources */,
+				7AF4349C298922110057EE52 /* favoritesTopView.swift in Sources */,
 				015626B42983E5E800D038D4 /* BaseTableViewCell.swift in Sources */,
 				015626C52983E6B300D038D4 /* ReviewTableViewCell.swift in Sources */,
 				015626842983CF2700D038D4 /* LoginViewController.swift in Sources */,
@@ -373,6 +392,7 @@
 				0156268C2983CF4600D038D4 /* TapBarViewController.swift in Sources */,
 				015626882983CF3500D038D4 /* InsetTextField.swift in Sources */,
 				015626BB2983E65000D038D4 /* InfoViewController.swift in Sources */,
+				7AF4349A298921FD0057EE52 /* favoritesCollectionviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

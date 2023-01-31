@@ -24,11 +24,11 @@ class topView: UIView {
     private let menuButton: UIButton = {
         
         let button = UIButton()
-        
         button.translatesAutoresizingMaskIntoConstraints = false
         button.clipsToBounds = true
         button.setImage(UIImage(named:"MenuButtonx1.png"), for: .normal)
-        button.addTarget(MainViewController.self, action: #selector(menubuttonTapped), for: .touchUpInside)
+        button.imageView?.contentMode = .scaleAspectFit
+       // button.addTarget(MainViewController.self, action: #selector(menubuttonTapped), for: .touchUpInside)
         
         return button
         
@@ -41,6 +41,7 @@ class topView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.clipsToBounds = true
         button.setImage(UIImage(named:"logox1.png"), for: .normal)
+        button.imageView?.contentMode = .scaleAspectFit
         
         return button
         
@@ -80,19 +81,19 @@ class topView: UIView {
         
         NSLayoutConstraint.activate([
             
-            menuButton.topAnchor.constraint(equalTo: topAnchor, constant: 30),
-            menuButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 335),
+            menuButton.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            menuButton.widthAnchor.constraint(equalToConstant: 37),
             menuButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -21),
             menuButton.heightAnchor.constraint(equalToConstant: 37),
             
-            logoButton.topAnchor.constraint(equalTo: topAnchor, constant: 30),
+            logoButton.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             logoButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 28),
-            logoButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -337),
+            logoButton.widthAnchor.constraint(equalToConstant: 39),
             logoButton.heightAnchor.constraint(equalToConstant: 39),
             
-            searchTextfield.topAnchor.constraint(equalTo: self.logoButton.topAnchor),
-            searchTextfield.bottomAnchor.constraint(equalTo: self.logoButton.bottomAnchor),
-            searchTextfield.leadingAnchor.constraint(equalTo: self.logoButton.trailingAnchor, constant: 13),
+            searchTextfield.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            searchTextfield.heightAnchor.constraint(equalToConstant: 39),
+            searchTextfield.leadingAnchor.constraint(equalTo: self.logoButton.trailingAnchor, constant: 10),
             searchTextfield.trailingAnchor.constraint(equalTo: self.menuButton.leadingAnchor, constant: -10),
             
         ])
@@ -101,16 +102,15 @@ class topView: UIView {
     
 
     
-    @objc func menubuttonTapped(){
-        
-        
-        
-    } //버튼 누르면 수행할거(나중에 네비게이션으로)
+//    @objc func menubuttonTapped(){
+//
+//
+//    } //버튼 누르면 수행할거(나중에 네비게이션으로)
     
-    @objc func logobuttonTapped(){
-        
-        
-    } //버튼 누르면 수행할거(나중에 네비게이션으로)
+//    @objc func logobuttonTapped(){
+//
+//
+//    } //버튼 누르면 수행할거(나중에 네비게이션으로)
     
     
 }

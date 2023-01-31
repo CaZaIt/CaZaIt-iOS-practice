@@ -12,14 +12,14 @@ class bottomView: UIView {
 
     //init
     override init(frame: CGRect) {
-            super.init(frame: frame)
-            setupLayout()
-        }
-        
-        required init?(coder: NSCoder) {
-            super.init(coder: coder)
-            setupLayout()
-        }
+        super.init(frame: frame)
+        setupLayout()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupLayout()
+    }
     
     //component
    
@@ -28,10 +28,11 @@ class bottomView: UIView {
         let button = UIButton()
         
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.frame = CGRect(x:18, y:151, width: 37, height: 37)
+//        button.frame = CGRect(x:18, y:151, width: 37, height: 37)
         button.clipsToBounds = true
         button.setImage(UIImage(named:"filterButtonx1.png"), for: .normal)
-        button.addTarget(MainViewController.self, action: #selector(filterbuttonTapped), for: .touchUpInside)
+        button.imageView?.contentMode = .scaleAspectFit
+   //     button.addTarget(MainViewController.self, action: #selector(filterbuttonTapped), for: .touchUpInside)
         
         return button
         
@@ -63,11 +64,23 @@ class bottomView: UIView {
         self.addSubview(filterLabel)
         
         NSLayoutConstraint.activate([
+            filterButton.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            filterButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 18),
+            filterButton.widthAnchor.constraint(equalToConstant: 37),
+            filterButton.heightAnchor.constraint(equalToConstant: 37),
             
-            filterButton.topAnchor.constraint(equalTo: topAnchor, constant: 19),
-            filterButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 18),
-            filterLabel.topAnchor.constraint(equalTo: topAnchor, constant: 25.5),
-            filterLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 66),
+
+            
+            filterLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            filterLabel.leadingAnchor.constraint(equalTo: filterButton.trailingAnchor, constant: 10),
+            filterLabel.widthAnchor.constraint(lessThanOrEqualToConstant: 100),
+            filterLabel.heightAnchor.constraint(equalToConstant: 20)
+            
+//
+//            filterButton.topAnchor.constraint(equalTo: topAnchor, constant: 19),
+//            filterButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 18),
+//            filterLabel.topAnchor.constraint(equalTo: topAnchor, constant: 25.5),
+//            filterLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 66),
         
         ])
         
@@ -104,11 +117,11 @@ class bottomView: UIView {
         }
     
     
-    @objc func filterbuttonTapped(){
-        
-        
-    } //버튼 누르면 수행할거(나중에 네비게이션으로)
-    
+//    @objc func filterbuttonTapped(){
+//
+//
+//    } //버튼 누르면 수행할거(나중에 네비게이션으로)
+//
 }
 
 
